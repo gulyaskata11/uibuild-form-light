@@ -42,6 +42,12 @@ h1 {
     padding-left: 20px;
 }
 
+.first::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 .comment {
     width: 480px;
     height: 120px;
@@ -53,6 +59,12 @@ h1 {
     border: none;
     padding-left: 20px;
     padding-top: 20px;
+}
+
+.comment::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .informant {
